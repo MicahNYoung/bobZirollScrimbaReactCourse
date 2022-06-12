@@ -1,14 +1,18 @@
-const samplePage = (
+const page = (
     <div>
-        <h1>This is a h1</h1>
-        <p>This is a p</p>
-        <p>This is another p</p>
-        <pre>This is a pre</pre>
+        <img src="./react-logo.png"></img>
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>Was furst released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100k stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
     </div>
 )
 
-// document.getElementById("root").append(JSON.stringify(samplePage));
-
-//Using JSX variable with typical JS methods won't work because JSX returns as an object.
-
-ReactDOM.render(samplePage, document.getElementById("root"));
+ReactDOM.render(
+    page,
+    document.getElementById("root")
+)
