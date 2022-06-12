@@ -1,10 +1,14 @@
-const navbar = (<nav>
-    <h1>Young Money Solutions</h1>
-    <ul>
-        <li>Pricing: $100,000</li>
-        <li>About: totally about it</li>
-        <li>Contact: 913-911-9999-1</li>
-    </ul>
-</nav>)
+const samplePage = (
+    <div>
+        <h1>This is a h1</h1>
+        <p>This is a p</p>
+        <p>This is another p</p>
+        <pre>This is a pre</pre>
+    </div>
+)
 
-ReactDOM.render(navbar, document.getElementById("root"))
+// document.getElementById("root").append(JSON.stringify(samplePage));
+
+//Using JSX variable with typical JS methods won't work because JSX returns as an object.
+
+ReactDOM.render(samplePage, document.getElementById("root"));
