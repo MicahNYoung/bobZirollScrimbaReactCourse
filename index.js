@@ -1,18 +1,20 @@
-const page = (
-    <div>
-        <img src="./react-logo.png"></img>
-        <h1>Fun facts about React</h1>
-        <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100k stars on Github</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
-    </div>
-)
+function ReasonsReactIsExciting(){
+    return (  
+        <div>
+            <h1>Reasons learning React is exciting</h1>
+            <ul>
+                <li>It's tangentially related to languages/frameworks I've work with before</li>
+                <li>It's an in demand framework</li>
+                <li>It's a useful skill to build full stack applications</li>
+             </ul>
+        </div>)
+    
+      
+        
+        
+}
 
 ReactDOM.render(
-    page,
+    <ReasonsReactIsExciting/>,
     document.getElementById("root")
 )
