@@ -1,11 +1,7 @@
-function Header(){
-    return (<header>
-                <nav>
-                    <img src="./reactLogo.png" width="50px"></img>
-                </nav>
-        </header>
-    )
-}
+import React from "react"
+import ReactDOM from "react-dom"
+import Header from "./Header"
+
 function MainContent(){
     return (
         <div>
