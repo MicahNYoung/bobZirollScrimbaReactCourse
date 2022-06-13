@@ -1,7 +1,12 @@
 function Header(){
     return (<header>
-                <nav>
-                    <img src="./reactLogo.png" width="50px"></img>
+                <nav className="nav">
+                    <img className="image" src="./reactLogo.png"></img>
+                    <ul className ="nav-items">
+                        <li>Pricing</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
                 </nav>
         </header>
     )
@@ -21,7 +26,7 @@ function MainContent(){
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
                     <small>© 2022 Young Development. All rights reserved.</small>
         </footer>
     )
