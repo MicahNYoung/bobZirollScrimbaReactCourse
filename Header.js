@@ -1,8 +1,7 @@
-import React from "react"
- 
-export default function Header() {
-    return (
-        <header>
+import React, {Component} from "./react.js"
+
+export function Header() {
+    return (<header>
             <nav className="nav">
                 <img src="./react-logo.png" className="nav-logo" />
                 <ul className="nav-items">
@@ -14,3 +13,4 @@ export default function Header() {
         </header>
     )
 }
+

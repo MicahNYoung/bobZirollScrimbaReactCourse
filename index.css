@@ -1,4 +1,24 @@
-html, body {
-    margin: 0;
-    padding: 0;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex: 1;
+
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+.image {
+    width: 50px;
+}
+
+.footer {
+    background-color: rgb(51, 164, 230);
 }

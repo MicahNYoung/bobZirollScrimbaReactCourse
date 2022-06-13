@@ -1,6 +1,5 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import Header from "./Header"
+
+import {Header} from "./Header"
 
 function MainContent(){
     return (
@@ -17,7 +16,7 @@ function MainContent(){
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
                     <small>© 2022 Young Development. All rights reserved.</small>
         </footer>
     )
