@@ -1,17 +1,33 @@
-import React from "react"
-import { Navbar } from "./components/Navbar"
-import { Hero } from "./components/Hero"
-
-/*
-Challenge: Build the Navbar component.
-Check the Figma file for the design specifics.
-*/
+import { Contact } from "./components/Contact"
 
 export default function App() {
     return (
         <div>
-            <Navbar/>
-            <Hero/>
+            <Contact 
+                img=""
+                name="Mr.Whiskerson"
+                phone="(212) 555-1234"
+                email="mr.whiskaz@catnap.meow"
+            />
+            <Contact
+                img=""
+                name="Mr.Fluffykins"
+                phone="(212) 555-2345"
+                email="fluff@me.com"
+            />
+            <Contact
+                img=""
+                name="Mr.Felix"
+                phone="(212) 555-4567"
+                email="fluff@me.com"
+            />
+            <Contact
+                img=""
+                name="Mr.Pumpkin"
+                phone="(0800) CAT KING"
+                email="pumpkin@scrimba.com"
+            />
+      
         </div>
         
     )
