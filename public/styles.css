@@ -67,3 +67,7 @@ color: #222222;
 .nav--logo {
     max-width: 100px;
 }
+
+.card--star {
+    width: 15px;
+}
