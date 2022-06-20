@@ -5,6 +5,7 @@ export default function App() {
     return (
         <div>
             <Joke
+                isFunny = {true}
                 setup= "How do you comfort a JavaScript bug?"
                 punchline="You console it."/>
             <Joke

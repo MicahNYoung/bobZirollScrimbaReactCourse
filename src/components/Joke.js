@@ -3,8 +3,10 @@ import React from "react";
 export function Joke(props) {
     return (
         <div>
-            <h3>{props.setup}</h3>
-            <h1>{props.punchline}</h1>
+            <h1>{props.setup}</h1>
+            <h3>{props.punchline}</h3>
+            <p>{props.isFunny}</p>
+            <hr/>
         </div>
     )
 }
