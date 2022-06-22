@@ -1,9 +1,9 @@
 import React from "react"
-import airbnbLogo from "../images/airbnbLogoForReal.png"
 
-export function Navbar(){
-    return (
-        <nav>
-                <img src={airbnbLogo} className="nav--logo"/>
-        </nav>)
+export function Navbar () {
+        return (
+                
+                <h1>My Travel Journal</h1>
+
+        )
 }

@@ -1,19 +1,17 @@
-import React from "react"
-import redStar from "../images/redStar.png"
+import React from "react";
 
-export default function Card(props) {
+export function Card(props){
+    console.log(props.object)
     return (
-        <div className="card">
-            <img src={props.img} className="card--image" />
-            <div className="card--stats">
-                <img src={redStar} className="card--star" />
-                <span>{props.ratings}</span>
-                <span className="gray">({props.reviewCount}) • </span>
-                <span className="gray">{props.country}</span>
-            </div>
-            <p>{props.title}</p>
-            <p><span className="bold">From ${props.price}</span> / person</p>
+        <div> 
+            <img src={props.object.imageUrl}></img>
+            <p>{props.object.location}</p>
+            <a href={props.googleMapsLink}>View on Google Maps</a>
+            <h2>{props.title}</h2>
+            <p><span>{props.startDate}</span> - <span>{props.endDate}</span></p>
+            <p>{props.description}</p>
         </div>
     )
+    
+   
 }
-
