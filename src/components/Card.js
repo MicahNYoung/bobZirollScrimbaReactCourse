@@ -1,19 +1,36 @@
 import React from "react"
-import redStar from "../images/redStar.png"
+
 
 export default function Card(props) {
+    let badgeText
+    if (props.object.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.object.location === "Online") {
+        badgeText = "ONLINE"
+    }
+    
     return (
+        
         <div className="card">
-            <img src={props.img} className="card--image" />
+            {badgeText && <div className="card--badge">{badgeText}</div>}
+            <img src={props.object.coverImg} className="card--image" />
             <div className="card--stats">
-                <img src={redStar} className="card--star" />
-                <span>{props.ratings}</span>
-                <span className="gray">({props.reviewCount}) • </span>
-                <span className="gray">{props.country}</span>
+                <img src={"images/redStar.png"} className="card--star" />
+                <span>{props.object.stats.rating}</span>
+                <span className="gray">({props.object.stats.reviewCount}) • </span>
+                <span className="gray">{props.object.location}</span>
             </div>
-            <p>{props.title}</p>
-            <p><span className="bold">From ${props.price}</span> / person</p>
+            <p className="card--title">{props.object.title}</p>
+            <p className="card--price"><span style={{fontWeight: 'bold'}}>From ${props.object.price}</span> / person</p>
         </div>
     )
 }
+// title = {object.title}
+//                 description = {object.description}
+//                 price = {object.price}
+//                 coverImg = {object.coverImg}
+//                 rating = {object.stats.rating}
+//                 reviewCount = {object.stats.reviewCount}
+//                 location = {object.location}
+//                 openSpots = {object.openSpots}
 
