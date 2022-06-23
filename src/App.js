@@ -2,6 +2,8 @@ import React from "react";
 import { Card } from "./components/Card";
 import data from "./data"
 import { Navbar } from "./components/Navbar"
+import { Header } from "./components/Header";
+import { Form } from "./components/Form";
 
 export default function App () {
     const cardElements = data.map( object => {
@@ -14,13 +16,8 @@ export default function App () {
         
     return (
         <div>
-            <Navbar/>
-
-    <div className="card--list">    
-
-
-        {cardElements}
-    </div>
+            <Header/>
+            <Form/>
         </div>
         
     )

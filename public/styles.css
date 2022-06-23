@@ -7,61 +7,73 @@ body {
     
 }
 
-
-
-
-h1 {
-    text-align: center;
-    background-color: #B950EB;
-    padding: 20px;
-    color: white;
-    margin: 0 -999rem;    
+main {
+    padding: 36px;
 }
 
-.card--list {
-        display: flex;
-         gap: 20px;
-        overflow-x: auto;
-        flex-direction: column;
-        max-width: 800px;
-        margin: auto;
-    
-}
-
-.card--info {
-    /* display: inline-block; */
-    padding: 30px;
-    max-width: 230px;
-}
-
-.card--location {
-    display: inline;
-    margin: 5px;
-}
-
-.card {
-    width: 100%;
-    font-size: 12px;
-    /* flex: 0 0 auto;         */
-    display: flex;          
-    /* flex-direction: column;  */
-    position: relative;
-    padding: 10px;
+.header{
+    display: flex;
     align-items: center;
-    justify-content: center;
+    height:80px;
+    padding-left: 5%;
+    padding-top: 2%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 2%;
 }
 
-.card--image {
-    width: 100%;
-    border-radius: 9px;
-    margin-bottom: 9px;
-    
+.header--title {
+width: 160px;
+height: 24px;
+left: 62px;
+top: 21px;
+text-justify: ;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.0em;
+margin-right: auto;
+color: #FFFFFF;
 }
 
-.image--container {
-    flex-basis: 40%;
+.reactCourseHeading {
+width: 189px;
+height: 14px;
+left: 324px;
+top: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+
+color: #FFFFFF;
 }
 
-img {
-    max-width: 100%;
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+
+}
+
+.form--input{
+    font-family: "Karla", sans-serif;
+    border-radius: 5px ;
+    border: 1px solid #D5D4D8;
+    text-indent: 10px;
+
+}   
+.form--button{
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color:white;
+    border:none;
+    cursor: pointer;
 }
