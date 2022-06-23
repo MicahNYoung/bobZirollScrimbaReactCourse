@@ -6,7 +6,7 @@ export default [
         startDate: "Dec 28, 2021",
         endDate: "Dec 28, 2021",
         description: "Amazed by the sheer size of the job",
-        imageUrl: "images/travelJournalHooverDam.jpg"
+        imageUrl: "images/travelJournal/travelJournalHooverDam.jpg"
     },
     {
         title: "Valley of Fire",
@@ -15,7 +15,7 @@ export default [
         startDate: "Dec 27, 2021",
         endDate: "Dec 27, 2021",
         description: "Saw 2,000 year old petroglyphs, hiked several small trails, reached new heights",
-        imageUrl: "images/travelJournalValleyOfFire.jpg"
+        imageUrl: "images/travelJournal/travelJournalValleyOfFire.jpg"
     },
     {
         title: "Salt Lake City 2",
@@ -24,7 +24,7 @@ export default [
         startDate: "Dec 25, 2021",
         endDate: "Dec 26, 2021",
         description: "More beautiful views and pad thai tradition",
-        imageUrl: "images/travelJournalSLC21.jpg"
+        imageUrl: "images/travelJournal/travelJournalSLC21.jpg"
     },
     {
         title: "The Big Island",
@@ -33,7 +33,7 @@ export default [
         startDate: "Jun 15, 2021",
         endDate: "Jun 24, 2021",
         description: "8 days in heaven",
-        imageUrl: "images/travelJournalHawaii.jpg"
+        imageUrl: "images/travelJournal/travelJournalHawaii.jpg"
     },
     {
         title: "Florida",
@@ -42,7 +42,7 @@ export default [
         startDate: "Jul 1, 2020",
         endDate: "Jul 6, 2020",
         description: "Attended Wedding",
-        imageUrl: "images/travelJournalFlorida.jpg"
+        imageUrl: "images/travelJournal/travelJournalFlorida.jpg"
     },
     {
         title: "Mount Hood",
@@ -51,7 +51,7 @@ export default [
         startDate: "Dec 30, 2019",
         endDate: "Dec 30, 2019",
         description: "Drastically overestimated out ability to hike Burnt Lake Trail in the winter",
-        imageUrl: "images/travelJournalMtHood.jpg"
+        imageUrl: "images/travelJournal/travelJournalMtHood.jpg"
     },
     {
         title: "Salt Lake City",
@@ -60,7 +60,7 @@ export default [
         startDate: "Dec 27, 20219",
         endDate: "Dec 28, 2019",
         description: "Beautiful views of the city and pad thai tradition",
-        imageUrl: "images/travelJournalSLC.jpg"
+        imageUrl: "images/travelJournal/travelJournalSLC.jpg"
     },
     {
         title: "Great Wall of China",
@@ -69,6 +69,6 @@ export default [
         startDate: "Feb 23, 2019",
         endDate: "Apr 21, 2019",
         description: "2 wonderful months in China",
-        imageUrl: "images/travelJournalGreatWall.jpg"
+        imageUrl: "images/travelJournal/travelJournalGreatWall.jpg"
     }
 ]
