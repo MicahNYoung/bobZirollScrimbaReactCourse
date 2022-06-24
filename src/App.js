@@ -6,12 +6,12 @@ import { Header } from "./components/Header";
 import { Form } from "./components/Form";
 
 export default function App () {
-    const cardElements = data.map( object => {
-        return (
-            <Card
-                object = {object}
-            />
-    )})
+    // const cardElements = data.map( object => {
+    //     return (
+    //         <Card
+    //             object = {object}
+    //         />
+    // )})
     
         
     return (
