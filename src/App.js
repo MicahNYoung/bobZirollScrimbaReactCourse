@@ -1,9 +1,9 @@
 import React from "react";
 import { Card } from "./components/Card";
 import data from "./data"
-import { Navbar } from "./components/Navbar"
-import { Header } from "./components/Header";
-import { Form } from "./components/Form";
+import { Navbar } from "./components/Navbar.js"
+import { Header } from "./components/Header.js";
+import  Meme  from "./components/Meme.js";
 
 export default function App () {
     // const cardElements = data.map( object => {
@@ -17,7 +17,7 @@ export default function App () {
     return (
         <div>
             <Header/>
-            <Form/>
+            <Meme/>
         </div>
         
     )
